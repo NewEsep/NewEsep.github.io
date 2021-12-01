@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(163, 54, 185);
+    overflow-x: hidden;
+}
+#a{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+#b{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+#c{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+#btn{
+  background-color: rgb(108, 140, 236);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+h2{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}

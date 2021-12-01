@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Калькулятор ИМТ</h1>
+  <p id="a">Введите свой рост: <input type="text" id="height"/>
+    <select type="multiple" id="heightunits">
+      <option value="metres" selected="selected">Сантиметров</option>
+      <option value="inches">Дюймов</option>
+    </select>
+  </p>
+  <p id="b">Введите свой вес: <input type="text" id="weight"/>
+    <select type="multiple" id="weightunits">
+      <option value="kg" selected="selected">Килограмм</option>
+      <option value="lb">Фунтов</option>
+    </select>
+  </p>
+  <input type="submit" value="Проверить ИМТ" onclick="computeBMI();" id="btn">
+  <h1 id="c">Ваш ИМТ: <span id="output"> </span></h1>
+  
+  <h2>Ваш вес: <span id="comment"> </span> </h2> 
+  <script src="app.js"></script>
+</body>
+
+</html>
